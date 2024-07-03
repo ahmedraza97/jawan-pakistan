@@ -1,0 +1,80 @@
+.Review {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.Review .reviewWrapper {
+  width: 1320px;
+}
+.Review .reviewWrapper h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #00306e;
+  text-align: center;
+}
+
+.Review .reviewWrapper .curveLine {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.Review .reviewWrapper .ReviewWrapperContainer {
+  width: 1100px;
+  margin: 0 auto;
+}
+.Review .reviewWrapper .reviewCard {
+  align-items: center;
+  background: #fff;
+  border: 2px solid rgba(2, 3, 52, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 50px 60px;
+  box-sizing: border-box;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  display: grid !important;
+  grid-template-columns: 310px 1fr;
+}
+.Review .reviewWrapper .reviewCard .img {
+  width: 250px;
+  height: auto;
+  margin-right: 70px;
+}
+
+.Review .reviewWrapper .reviewCard .rightCol {
+}
+.Review .reviewWrapper .reviewCard .rightCol .title {
+  color: #0f1216;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+.Review .reviewWrapper .reviewCard .rightCol .title span {
+  color: #5b5f64;
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 6px;
+}
+.Review .reviewWrapper .reviewCard .rightCol .para {
+  color: #5b5f64;
+  font-size: 20px;
+  line-height: 32px;
+}
+.Review .reviewWrapper .reviewCard .rightCol .review {
+  color: #5b5f64;
+  font-size: 16px;
+  display: flex;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.Review .reviewWrapper .reviewCard .rightCol .review .icon {
+  color: #ffa439;
+}

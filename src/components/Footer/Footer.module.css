@@ -1,0 +1,112 @@
+.Footer {
+  width: 100%;
+  background: #0f1216;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.Footer .innerWrapper {
+  width: 1320px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 325px auto auto 300px;
+  justify-content: space-between;
+}
+
+.Footer .innerWrapper .footerCol {
+  width: 100%;
+  height: 100%;
+}
+.Footer .innerWrapper .footerCol .listItem {
+  display: flex;
+  color: white;
+  margin-top: 0.8rem;
+}
+.Footer .innerWrapper .footerCol p {
+  color: white;
+  margin: 20px 0px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.Footer .innerWrapper .footerCol .listItem img {
+  color: white;
+}
+
+.Footer .innerWrapper .footerCol .listItem a {
+  text-decoration: none;
+  color: #b7b7b9;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 10px;
+}
+
+.Footer .innerWrapper .footerCol h2 {
+  margin-bottom: 35px;
+}
+
+.Footer .innerWrapper .footerCol .ul li {
+  list-style-type: none;
+}
+
+.Footer .innerWrapper .footerCol .ul li a {
+  text-decoration: none;
+  color: #b7b7b9;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  position: relative;
+}
+
+.Footer .innerWrapper .footerCol .customText {
+  font-size: 16px;
+}
+.Footer .innerWrapper .footerCol .searchWrapper {
+  display: grid;
+  grid-template-columns: 1fr 60px;
+}
+.Footer .innerWrapper .footerCol .searchWrapper .btnWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3670f8;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.Footer .innerWrapper .footerCol .searchWrapper input {
+  padding: 18px 25px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+@media screen and (max-width: 1300px) {
+  .Footer .innerWrapper {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Footer .innerWrapper {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Footer .innerWrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  .Footer {
+    padding: 50px 0px;
+  }
+  .Footer .innerWrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

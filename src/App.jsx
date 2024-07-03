@@ -1,15 +1,16 @@
 import "./App.css";
-import CustomHeading from "./CustomHeading";
-import CustomImage from "./CustomImage";
-
-import Para from "./Para";
+import Banner from "./components/Banner/Banner";
+import Echooling from "./components/Echooling/Echooling";
+import Footer from "./components/Footer/Footer";
+import Review from "./components/Review/Review";
 
 function App() {
   return (
     <>
-      <CustomHeading />
-      <Para />
-      <CustomImage />
+      <Banner />
+      <Review />
+      <Echooling />
+      <Footer />
     </>
   );
 }
