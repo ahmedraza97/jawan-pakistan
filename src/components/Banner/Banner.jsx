@@ -46,7 +46,9 @@ const Banner = () => {
           </div>
           {/* two */}
           <div className={styles.bannerWrapper}>
-            <img src="./src/assets/desktopBannerTwo.jpg" alt="" />
+          <img className={styles.web} src="./src/assets/desktopBannerTwo.jpg" alt="" />
+          <img className={styles.dom} src="./src/assets/bb2.jpg" alt="" />
+            <img src="" alt="" />
             <div className={styles.contentWrapper}>
               <div className={styles.leftWrapper}>
                 <p className={styles.tag}>Great Quality Cocial life</p>

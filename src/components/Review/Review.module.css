@@ -78,3 +78,40 @@
 .Review .reviewWrapper .reviewCard .rightCol .review .icon {
   color: #ffa439;
 }
+
+@media screen and (max-width: 1200px) {
+  .Review .reviewWrapper {
+    width: 90%;
+    box-sizing: border-box;
+  }
+  .Review .reviewWrapper .ReviewWrapperContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Review .reviewWrapper .reviewCard {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 20px;
+  }
+  .Review .reviewWrapper .reviewCard .rightCol {
+    text-align: center;
+  }
+  .Review .reviewWrapper .reviewCard .rightCol .review {
+    justify-content: center;
+  }
+  .Review .reviewWrapper .reviewCard .img {
+    width: auto;
+    margin-right: 0px;
+  }
+  .Review .reviewWrapper .reviewCard .rightCol .para {
+    font-size: 16px;
+  }
+  .Review .reviewWrapper h1 {
+    font-size: 30px;
+  }
+  .Review {
+    padding: 50px 0px;
+  }
+}
