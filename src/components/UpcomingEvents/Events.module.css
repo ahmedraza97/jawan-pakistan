@@ -1,0 +1,64 @@
+.Events {
+    width: 100%;
+    padding: 100px 0px;
+    background: #f5f5f5;
+}
+
+.Events .eventCardContainer {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.Events .eventCardContainer .card {}
+
+.Events .eventCardContainer .card .cardInner {
+    padding: 35px 30px;
+    background: white;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Events .eventCardContainer .card .cardInner .Date span {
+    color: #d2093c;
+    display: block;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+}
+
+.Events .eventCardContainer .card .cardInner .Date p {
+    color: #4d5765;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.Events .eventCardContainer .card .cardInner .time {
+    color: #d2093c;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 28px 0 4px;
+}
+
+.Events .eventCardContainer .card .cardInner .title {
+    color: #00306e;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.Events .eventCardContainer .card .cardInner .location {
+    color: #4d5765;
+    font-size: 17px;
+    margin: 24px 0;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.Events .eventCardContainer .card .cardInner .location .icon {
+    color: #00306e;
+    font-size: 20px;
+}

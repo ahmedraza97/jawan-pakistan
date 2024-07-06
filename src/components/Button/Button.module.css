@@ -1,0 +1,32 @@
+.customBtn {
+    border: 2px solid rgba(0, 48, 110, .1);
+    border-radius: 6px;
+    color: #00306e;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 15px 35px;
+    text-align: center;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all .5s ease;
+}
+
+.customBtn:hover {
+    background: #d2093c;
+    color: white;
+}
+
+.customBtn span {
+    font-size: 18px;
+}
+
+.customBtn .icon {
+    font-size: 16px;
+}
